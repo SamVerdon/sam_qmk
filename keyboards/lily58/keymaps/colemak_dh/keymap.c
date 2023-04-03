@@ -62,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_RCBR, KC_PERC, KC_ASTR,   KC_AT, KC_LCBR, KC_PIPE,                   KC_PLUS,    KC_7,    KC_8,   KC_9,    KC_0, XXXXXXX,
   KC_RPRN, KC_HASH, KC_COLN, KC_UNDS, KC_LPRN,  KC_GRV,                   KC_MINS,    KC_4,    KC_5,   KC_6,    KC_0, XXXXXXX,
   KC_RBRC, KC_AMPR, KC_BSLS, KC_TILD, KC_LBRC,  KC_DLR, _______, _______,  KC_EQL,    KC_1,    KC_2,   KC_3,    KC_0, XXXXXXX,
-                             _______, _______, _______, KC_TAB,  _______,  _______, _______, _______
+                             _______, _______, _______, _______, _______,  _______, _______, _______
 ),
 /* RAISE
  * ,-----------------------------------------.                    ,-----------------------------------------.
@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   _______, _______, _______, _______, KC_PSCR, _______,                     XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, _______,
   _______, _______, _______, KC_LSFT, KC_LCTL, _______,                     XXXXXXX, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______,
   _______, _______, _______, _______, _______, _______,   _______, _______, XXXXXXX, KC_HOME,  KC_END, XXXXXXX, XXXXXXX, _______,
-                             _______, _______, _______,  _______, _______,  _______, _______, _______
+                             _______, _______, _______,  KC_TAB,   _______,  _______, _______, _______
 ),
 /* ADJUST
  * ,-----------------------------------------.                    ,-----------------------------------------.
