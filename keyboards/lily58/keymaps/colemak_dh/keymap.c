@@ -48,7 +48,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 
  [_COLEMAK] = LAYOUT(
-  KC_ESC,   KC_1,   KC_2,    KC_3,    KC_4,    KC_5,                     KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_GRV,
+  KC_ESC,LGUI(KC_1),LGUI(KC_2),LGUI(KC_3),LGUI(KC_4),LGUI(KC_5), LGUI(KC_6),LGUI(KC_7),LGUI(KC_8),LGUI(KC_9),LGUI(KC_0),KC_GRV,
   KC_TAB,   KC_Q,   KC_W,    KC_F,    KC_P,    KC_B,                     KC_J,    KC_L,    KC_U,    KC_Y,    KC_SCLN, KC_MINS,
   KC_LCTL,  HOME_A, HOME_R,  HOME_S,  HOME_T,  KC_G,                     KC_M,    HOME_N,  HOME_E,  HOME_I,  HOME_O,  KC_QUOT,
   KC_LSFT,  KC_Z,   KC_X,    KC_C,    KC_D,    KC_V, KC_LBRC,  KC_RBRC,  KC_K,    KC_H,    KC_COMM, KC_DOT,  KC_SLSH, QK_GESC,
@@ -71,7 +71,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_LOWER] = LAYOUT(
   _______, _______, _______, _______, _______, _______,                   _______, _______, _______,_______, _______, _______,
   KC_RCBR, KC_PERC, KC_ASTR,   KC_AT, KC_LCBR, KC_PIPE,                   KC_PLUS,    KC_7,    KC_8,   KC_9,    KC_0, XXXXXXX,
-  KC_RPRN, HOMEL_A, HOMEL_R, HOMEL_S, HOMEL_T,  KC_GRV,                   KC_MINS, HOMEL_N, HOMEL_E, HOMEL_I, HOMEL_O, KC_CIRC,
+  KC_RPRN, KC_HASH, KC_COLN, KC_UNDS, KC_LPRN,  KC_GRV,                   KC_MINS, HOMEL_N, HOMEL_E, HOMEL_I, HOMEL_O, KC_CIRC,
   KC_RBRC, KC_AMPR, KC_BSLS, KC_EXLM, KC_LBRC,  KC_DLR, _______, _______,  KC_EQL,    KC_1,    KC_2,   KC_3,    KC_0, XXXXXXX,
                              _______, _______, _______, _______, _______,  _______, _______, _______
 ),
